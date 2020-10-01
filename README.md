@@ -11,4 +11,4 @@ https://www.bertrand.pt/livro/aprenda-a-programar-com-c-antonio-trigo/24356259
 
 https://www.fnac.pt/Aprenda-a-Programar-com-C-Antonio-Trigo
 
-
+https://www.wook.pt/livro/aprenda-a-programar-com-c-antonio-trigo/24356259
