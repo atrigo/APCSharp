@@ -12,28 +12,22 @@ namespace Cap6
 {
     class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
-            uint i, j, k, n;
-            uint[] v = new uint[9];
-            bool cap;
-            for (i = 1; i < 10000; i++)
+            int i, numero, novo_numero;
+            int digito;
+
+            for (i = 10; i < 10000; i++)
             {
-                n = i;
-                j = 0;
-                do
+                numero = i;
+                novo_numero = 0;   
+                while (numero > 0)
                 {
-                    v[j++] = n % 10;
-                    n /= 10;
+                    digito = numero % 10;
+                    novo_numero = novo_numero * 10 + digito;
+                    numero = numero/10;
                 }
-                while (n > 0);
-                cap = true;
-                k = 0;
-                do
-                    if (v[j - 1 - k] != v[k++])
-                        cap = false;
-                while (j / 2 >= k && cap);
-                if (cap)
+                if (i == novo_numero)
                     Console.WriteLine(i);
             }
         }
