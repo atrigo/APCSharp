@@ -12,6 +12,39 @@ namespace Cap6
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            int i, n, novo_numero;
+            int digito;
+
+            for (i = 10; i < 10000; i++)
+            {
+                n = i;
+                novo_numero = 0;   
+                while (n > 0)
+                {
+                    digito = n % 10;
+                    novo_numero = novo_numero * 10 + digito;
+                    n = n/10;
+                }
+                if (i == novo_numero)
+                    Console.WriteLine(i);
+            }
+        }
+    }
+}
+
+
+/*
+Com utilização de vetores
+*/
+
+using System;
+
+namespace Cap6
+{
+    class Program
+    {
         static void Main(string[] args) 
         {
             uint i, j, k, n;

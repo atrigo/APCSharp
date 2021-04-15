@@ -9,6 +9,6 @@ https://silabo.pt/catalogo/informatica/programacao/livro/aprenda-a-programar-com
 
 https://www.bertrand.pt/livro/aprenda-a-programar-com-c-antonio-trigo/24356259
 
-https://www.fnac.pt/Aprenda-a-Programar-com-C-Antonio-Trigo
+https://www.fnac.pt/Aprenda-a-Programar-com-C-Antonio-Trigo/a8112754
 
 https://www.wook.pt/livro/aprenda-a-programar-com-c-antonio-trigo/24356259
