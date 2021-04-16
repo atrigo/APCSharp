@@ -1,9 +1,9 @@
 # Exercícios do Capítulo 11 do livro
 
 1. Aplicação de gestão de aniversários:
-  a. Declare uma classe Aniversario para armazenar um nome (texto) e uma data de nascimento (DateTime);
-  b. Crie e teste os métodos necessários às seguintes operações:
-    i. Criar um aniversariante;
+ a. Declare uma classe Aniversario para armazenar um nome (texto) e uma data de nascimento (DateTime);
+ b. Crie e teste os métodos necessários às seguintes operações:
+  i. Criar um aniversariante;
     ii. Mostrar a lista de aniversariantes (de 10 em 10 caso sejam mais do que 10);
     iii. Pesquisar os aniversariantes que fazem anos num determinado mês.
     
