@@ -1,3 +1,5 @@
+# Exercícios do Capítulo 12 do livro
+
 1. Escreva um programa que peça nomes de pessoas ao utilizador e os escreva num ﬁcheiro até ser introduzida a palavra “sair”. Cada nome deverá ser escrito numa nova
 linha do ﬁcheiro.
 2. Escreva um programa que apresente no ecrã, em maiúsculas as letras presentes num ﬁcheiro de texto (pode usar o da questão anterior).
