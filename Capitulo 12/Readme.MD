@@ -11,13 +11,13 @@ introduzida a palavra “sair”.
 6. Escreva e teste um método que leia o ﬁcheiro anterior e apresente no ecrã a média das idades.
 7. Escreva e teste um método que leia o ﬁcheiro anterior e apresente no ecrã os nomes e classiﬁcações dos alunos que obtiveram aprovação (classiﬁcação >= 10).
 8. Crie as classes e os métodos necessários para implementar uma aplicação de gestão de clientes de uma loja de roupa.
-  1. Deﬁna uma classe Cliente com os campos nome, número de cliente, saldo do cartão e data de aniversário (do tipo DateTime).
-  2. Crie um método que permita preencher todos os dados de um cliente. O método deverá devolver um cliente.
-  3. Deﬁna na classe Program uma lista de clientes.
-  4. Crie um método que permita adicionar um cliente à lista utilizando o método criado para preencher os dados de um cliente.
-  5. Crie um método que apresente no ecrã todos os clientes existentes na lista.
-  6. Crie um método que, com base no número de cliente, indique se é o seu aniversário.
-  7. Implemente no método Main() um menu que permita chamar os métodos atrás descritos.
-  8. Crie um método que guarde num ﬁcheiro binário todos os dados dos clientes.
-  9. Crie um método que carregue para a lista de clientes todos os clientes existentes num dado ﬁcheiro binário.
-  10. Utilize os métodos acima para carregar os clientes na abertura do programa e para guardar os clientes no fecho do programa.
+    1. Deﬁna uma classe Cliente com os campos nome, número de cliente, saldo do cartão e data de aniversário (do tipo DateTime).
+    2. Crie um método que permita preencher todos os dados de um cliente. O método deverá devolver um cliente.
+    3. Deﬁna na classe Program uma lista de clientes.
+    4. Crie um método que permita adicionar um cliente à lista utilizando o método criado para preencher os dados de um cliente.
+    5. Crie um método que apresente no ecrã todos os clientes existentes na lista.
+    6. Crie um método que, com base no número de cliente, indique se é o seu aniversário.
+    7. Implemente no método Main() um menu que permita chamar os métodos atrás descritos.
+    8. Crie um método que guarde num ﬁcheiro binário todos os dados dos clientes.
+    9. Crie um método que carregue para a lista de clientes todos os clientes existentes num dado ﬁcheiro binário.
+    10. Utilize os métodos acima para carregar os clientes na abertura do programa e para guardar os clientes no fecho do programa.
