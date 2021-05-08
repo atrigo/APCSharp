@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cap13_1
+namespace cap13
 {
     class Program
     {
