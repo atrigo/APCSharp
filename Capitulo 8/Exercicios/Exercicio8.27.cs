@@ -36,7 +36,7 @@ namespace Cap8
       	    int[] v = {3,4,6,2,3,9,1,2,9,1};
             Console.WriteLine("Vetor original: ");
 	    ApresentaVetor(v);
-	    InsertionSort(v);
+	    SelectionSort(v);
             Console.WriteLine("Vetor ordenado: ");
     	    ApresentaVetor(v);
         }
