@@ -16,7 +16,7 @@ namespace Cap8
 	    Console.WriteLine();
 	}
         
-	static void InsertionSort(int[] v)
+	static void SelectionSort(int[] v)
         {
             for (int i = 0; i < v.Length - 1; i++)
             {
