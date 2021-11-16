@@ -10,11 +10,11 @@ namespace Cap8
 {
     class Program
     {
-		static void ApresentaVetor(int[] v){
-			for (int i = 0; i < v.Length; i++)
+	static void ApresentaVetor(int[] v){
+	    for (int i = 0; i < v.Length; i++)
                 Console.Write("{0} " , v[i]);
-			Console.WriteLine();
-		}
+	    Console.WriteLine();
+	}
         
         static void Merge(int[] v, int l, int m, int r)
         {
@@ -60,7 +60,7 @@ namespace Cap8
         }
   
   
-		static void MergeSort(int[] v, int l, int r)
+	static void MergeSort(int[] v, int l, int r)
         {
             if (l < r) {
                 int m = l+ (r-l)/2;
@@ -74,10 +74,10 @@ namespace Cap8
         {
             int[] v = {3,4,6,2,3,9,1,2,9,1};
             Console.WriteLine("Vetor original: ");
-			ApresentaVetor(v);
-			MergeSort(v,0,v.Length-1);
+	    ApresentaVetor(v);
+	    MergeSort(v,0,v.Length-1);
             Console.WriteLine("Vetor ordenado: ");
-			ApresentaVetor(v);
+	    ApresentaVetor(v);
         }
     }
 }
