@@ -1,23 +1,34 @@
 # Exercícios do Capítulo 12 do livro
 
-1. Escreva um programa que peça nomes de pessoas ao utilizador e os escreva num ﬁcheiro até ser introduzida a palavra “sair”. Cada nome deverá ser escrito numa nova
-linha do ﬁcheiro.
-2. Escreva um programa que apresente no ecrã, em maiúsculas as letras presentes num ﬁcheiro de texto (pode usar o da questão anterior).
-3. Utilizando o formato largura ﬁxa (escrita formatada) crie e teste um método que peça os nomes e as classiﬁcações dos alunos e escreva estes dados num ﬁcheiro até ser
-introduzida a palavra “sair”.
-4. Crie e teste um método que permita ler o ﬁcheiro anterior e apresente no ecrã o aluno com a melhor nota.
-5. Utilizando o formato separador, em que o separador é uma vírgula (’,’), crie e teste um método que peça os nomes e as classiﬁcações dos alunos e escreva estes dados num
-ﬁcheiro até ser introduzida a palavra “sair”.
-6. Escreva e teste um método que leia o ﬁcheiro anterior e apresente no ecrã a média das idades.
-7. Escreva e teste um método que leia o ﬁcheiro anterior e apresente no ecrã os nomes e classiﬁcações dos alunos que obtiveram aprovação (classiﬁcação >= 10).
-8. Crie as classes e os métodos necessários para implementar uma aplicação de gestão de clientes de uma loja de roupa.
-    1. Deﬁna uma classe Cliente com os campos nome, número de cliente, saldo do cartão e data de aniversário (do tipo DateTime).
-    2. Crie um método que permita preencher todos os dados de um cliente. O método deverá devolver um cliente.
-    3. Deﬁna na classe Program uma lista de clientes.
-    4. Crie um método que permita adicionar um cliente à lista utilizando o método criado para preencher os dados de um cliente.
-    5. Crie um método que apresente no ecrã todos os clientes existentes na lista.
-    6. Crie um método que, com base no número de cliente, indique se é o seu aniversário.
-    7. Implemente no método Main() um menu que permita chamar os métodos atrás descritos.
-    8. Crie um método que guarde num ﬁcheiro binário todos os dados dos clientes.
-    9. Crie um método que carregue para a lista de clientes todos os clientes existentes num dado ﬁcheiro binário.
-    10. Utilize os métodos acima para carregar os clientes na abertura do programa e para guardar os clientes no fecho do programa.
+1. Aplicação de gestão de aniversários:
+	1. Declare uma classe Aniversario para armazenar um nome (texto) e uma data de nascimento (DateTime);
+	2. Crie e teste os métodos necessários às seguintes operações:
+	    1. Criar um aniversariante;
+		2. Mostrar a lista de aniversariantes (de 10 em 10 caso sejam mais do que 10);
+		3. Pesquisar os aniversariantes que fazem anos num determinado mês.
+
+2. Aplicação para gestão de alunos:
+	1. Declare uma classe *Aluno* com os atributos *numAluno* (inteiro), *nome* (texto), *idade* (inteiro), *altura* (real) e os métodos necessários para a manipulação dos atributos.
+	2. Na classe *Aluno* reescreva o método *ToString()* para que devolva todos os atributos num formato para apresentar no ecrã.
+	3. Declare uma classe *Turma* com os atributos *disciplina* (texto) e *listaDeAlunos* (lista do tipo Aluno).
+	4. Na classe *Program* crie um método para mostrar todos os alunos de uma turma.
+	5. Na classe *Program* crie um método que apresente os alunos ordenados alfabeticamente pelo nome.
+	6. Na classe *Program* crie um método que apresente os alunos ordenados pela idade.
+	7. Na classe *Program* crie um método que devolva a altura média dos alunos de uma turma.	
+	8. No método principal da classe *Program*:
+	    1. Crie três alunos, *a1*, *a2* e *a3* e adicione-os à turma *t1* de música.
+		2. Apresente os alunos da turma *t1* ordenados alfabeticamente pelo nome.
+		3. Apresente os alunos da turma *t1* ordenados pela idade.
+		4. Crie uma turma *t2* de matemática por cópia da turma *t1* e remova o aluno *a2* pois não faz parte desta turma.
+		5. Apresente as alturas médias das turmas *t1* e *t2*.
+		
+3. Aplicação de gestão de contactos:
+    1. Declare uma classe Contacto com os seguintes atributos *nome*, *rede* e *número de telefone*;
+	2. Utilizando a classe *List<T>* para guardar a lista de contactos, crie e teste os métodos necessários às seguintes operações:
+	    1. Guardar os dados de um contacto.
+		2. Mostrar os dados de um contacto.
+		3. Percorrer a lista de contactos.
+		4. Pesquisar os contactos de uma determinada rede.
+		5. Pesquisar o número de telefone de um determinado contacto.		
+		6. Pesquisar o nome do contacto com um determinado número de telefone.
+		7. Remover da agenda um contacto pelo número de telefone.		
