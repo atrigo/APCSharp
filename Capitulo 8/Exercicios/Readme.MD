@@ -25,3 +25,9 @@
 23. Escreva um programa que mostre no ecrã a matriz transposta de uma matriz de números inteiros introduzidos pelo utilizador.
 24. Escreva um programa que implemente a operação de multiplicação de matrizes de números inteiros.
 25. Escreva um programa que permita armazenar um conjunto de nomes. Utilize o tipo string disponível em C#.
+26. Escreva e teste um método que ordene um vetor de inteiros utilizando o método insertion sort.
+27. Escreva e teste um método que ordene um vetor de inteiros utilizando o método selection sort.
+28. Escreva e teste um método que ordene um vetor de inteiros utilizando o método bubble sort.
+29. Escreva e teste um método que ordene um vetor de inteiros utilizando o método merge sort.
+30. Escreva e teste um método que ordene um vetor de inteiros utilizando o método quick sort.
+31. Escreva e teste um método recursivo para a pesquisa binária.
