@@ -18,8 +18,10 @@
 ****
 ```
 14. Crie um programa que apresente no ecrã u mtriângulo de números (a dimensão é introduzida pelo utilizador):
+```
 1
 12
 123
 1234
+```
 15. Crie um programa que indique se um número pode ser expresso através da soma de dois números primos (ex.: 16 = 3 + 13 e 5 + 11).
