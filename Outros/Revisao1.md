@@ -11,10 +11,12 @@
 11. Crie um programa que apresente o fatorial de um número. Ex. 5! = 5x4x3x2x1 = 120.
 12. Crie um programa que apresente no ecrã a soma da seguinte série 1,11,111,1111,11111, etc. O termo da série é introduzido pelo utilizador. Ex.:5->1+11+111+1111+11111=12345
 13. Crie um programa que apresente no ecrã um triangulo de asteriscos (a dimensão é introduzida pelo utilizador):
+```
 *
 **
 ***
 ****
+```
 14. Crie um programa que apresente no ecrã u mtriângulo de números (a dimensão é introduzida pelo utilizador):
 1
 12
